@@ -14,23 +14,23 @@ logging.basicConfig(
 )
 
 
-date,sales
-2023–01–01,150
-2023–01–02,170
-2023–01–03,160
-2023–01–04,180
+# date,sales
+# 2023-01-01,150
+# 2023-01-02,170
+# 2023-01-03,160
+# 2023-01-04,180
 
 # Load CSV into a DataFrame
 df = read_csv("sales_data.csv")
 # Inspect the DataFrame
 logger.info(df.head())
 
-Output:
-date sales
-0 2023–01–01 150
-1 2023–01–02 170
-2 2023–01–03 160
-3 2023–01–04 180
+# Output:
+# date sales
+# 0 2023-01-01 150
+# 1 2023-01-02 170
+# 2 2023-01-03 160
+# 3 2023-01-04 180
 
 # Convert 'date' column to datetime
 df['date'] = pd.to_datetime(df['date'])
@@ -39,17 +39,17 @@ df.set_index('date', inplace=True)
 # Inspect the DataFrame
 logger.info(df.head())
 
-Output:
-date sales
-2023–01–01 150
-2023–01–02 170
-2023–01–03 160
-2023–01–04 180
+# Output:
+# date sales
+# 2023-01-01 150
+# 2023-01-02 170
+# 2023-01-03 160
+# 2023-01-04 180
 
 # Resample to monthly frequency, taking the mean of sales
 monthly_sales = df.resample('M').mean()
 logger.info(monthly_sales)
-Upsampling Example: Monthly to Daily
+# Upsampling Example: Monthly to Daily
 # Upsample to daily frequency with linear interpolation
 daily_sales = monthly_sales.resample('D').interpolate(method='linear')
 logger.info(daily_sales.head())
