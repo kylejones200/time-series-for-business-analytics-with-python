@@ -1,7 +1,7 @@
 # Time Series for Business Analytics with Python
 
-**Published:** 2024-12-18
-**Medium:** [https://medium.com/@kyle-t-jones/time-series-for-business-analytics-with-python-a92b30eecf62](https://medium.com/@kyle-t-jones/time-series-for-business-analytics-with-python-a92b30eecf62)
+Published: 2024-12-18
+Medium: [https://medium.com/@kyle-t-jones/time-series-for-business-analytics-with-python-a92b30eecf62](https://medium.com/@kyle-t-jones/time-series-for-business-analytics-with-python-a92b30eecf62)
 
 ## About
 

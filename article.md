@@ -41,7 +41,7 @@ Without these techniques, we risk building models that fail to capture the time-
 #### Getting Started with Time Series in Python
 We start by loading and formating the data with the tools in pandas.
 
-**Uploading Time Series Data into a DataFrame**
+Uploading Time Series Data into a DataFrame
 
 Suppose you have a CSV file containing a time series with columns for date and observed values:
 
@@ -54,7 +54,7 @@ Python Code to Load the Data:
 Looking at the top four observations:
 
 
-**Casting the Date Column as Timestamps**
+Casting the Date Column as Timestamps
 
 We need the date to be cast as a datetime object so Python knows it is a date. We also want to use the date as the index for the dataframe.
 
@@ -64,7 +64,7 @@ Python Code to Cast and Index by Date:
 
 Now, the DataFrame treats date as a time index which will let us use tools like resampling, rolling windows, and time-based slicing.
 
-**Resampling to Change the Frequency**
+Resampling to Change the Frequency
 
 Resampling allows you to aggregate or disaggregate time series data to a different frequency. For example:
 
@@ -73,7 +73,7 @@ Resampling allows you to aggregate or disaggregate time series data to a differe
 - Downsampling Example: Daily to Monthly
 
 
-**Key Points to Remember**
+Key Points to Remember
 
 1\. Time Index: Always convert and index your time series data using a datetime format to enable time-based operations.
 
