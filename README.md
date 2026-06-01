@@ -11,14 +11,7 @@ Time series analysis is a branch of analytics that focuses on data collected ove
 
 Each observation in a time series is influenced by the previous ones, creating temporal dependencies that we can use for our analysis.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
